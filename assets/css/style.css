@@ -247,6 +247,23 @@ body {
 
 .right-addon > div { right: 0px; top: 0px;}
 
+.mobile-menu {
+    background-color: rgb(76, 88, 84);
+}
+
+.mobile-menu > div > ul > li {
+    list-style: none;
+}
+
+.mobile-menu > div > ul > li > a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+.mobile-menu > div > ul > li > a:hover {
+    text-decoration: underline;
+}
 
 textarea:focus, input:focus{
     outline: none;
